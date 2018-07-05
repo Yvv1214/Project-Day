@@ -1,0 +1,371 @@
+
+body {
+    background: orange;
+    font-family: cursive;
+}
+/*-------------------------------HEADER-------------------------------*/
+header {
+    padding: 15px;
+    padding-bottom: 0;
+    border-bottom: solid 1.5px;
+    line-height: 1.5;
+}
+
+header img {
+    height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+header div {
+    position: absolute;
+    top: 15.5%;
+    width: 100%;
+    font-size: 21px;
+    font-weight: bold;
+    height: 41px;;
+}
+header div ul {
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin: 0% 12%;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+/*-------------------------------FOOTER-------------------------------*/
+
+footer {
+    border: solid moccasin;
+    border-radius: 15px;
+    float: clear;
+    margin: 20px 20px
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 18%;
+}
+
+/*-------------------------------HOME PAGE-------------------------------*/
+
+.home-body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    height: 630px;
+}
+
+.lady-with-computer, .travel-pic {
+    width: 500px;
+    border-radius: 20px;
+    border: solid moccasin;
+}
+
+.lady-with-computer {
+    float: right;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.travel-pic {
+    float: left;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+p#p1 {
+    margin-bottom: 30px;
+}
+
+.Destinations {
+    width: 200px;
+    margin-top: 70px;
+    margin-left: 1050px;
+}
+
+/*-------------------------------MY DESTINATIONS-------------------------------*/
+
+.destinations-page {
+    border: solid black 10px;
+    background-color: black;
+    margin: 30px;
+    height: 502px;
+    width: 1445px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.japan, .singapore, .peru {
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: black;
+}
+
+.japan {
+    margin-left: 88px;
+}
+
+.destinations-page img {
+    width: 400px;
+    height: 500px;
+}
+
+.destinations-text {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.japan-text {
+    bottom: 549px;
+    left: 45px;
+    font-size: 70px;
+}
+
+.singapore-text {
+    top: -540px;
+    left: 38px;
+    font-size: 70px;
+}
+
+.peru-text {
+    top: -547px;
+    right: -126px;
+    font-size: 70px;
+    width: 300px;
+}
+.destinations-page p {
+    position: relative;
+}
+.destinations-page a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.destinations-page a:visited, .destinations-page a:hover {
+    color: midnightblue;
+}
+
+.destinations-page a:active {
+    color: aqua;
+}
+
+/*-------------------------------JAPAN-------------------------------*/
+
+.japan-body {
+    background-image: url(japan-image2.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+#koyasan, #kyoto, #tokyo {
+    border-bottom: solid;
+    width: 500px;
+    margin: auto;               /*HEADERS*/
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    color: floralwhite;
+}
+
+.koyasan, .kyoto, .tokyo {
+    width: 860px;
+    margin: auto;
+    color: floralwhite;     /*DIV*/
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.koyasan-vid {
+    margin: auto;
+    display: block;
+    border: black solid;
+}
+
+.koyasan-img {
+    height: 350px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.kyoto-vid {
+    margin: auto;
+    display: block;
+    border: black solid;
+
+}
+
+.kyoto-img {
+    height: 350px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.tokyo-vid {
+    margin: auto;
+    display: block;
+    border: black solid;
+}
+
+.tokyo-img {
+    height: 350px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*-------------------------------SINGAPORE-------------------------------*/
+
+.singapore-body {
+    background-image: url(singapore-background.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    color: whitesmoke;
+}
+
+#paragraphs {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#main-h1 {
+    color: ghostwhite;
+    display: block;
+    text-align: center;
+    width: 500px;
+    border-bottom: solid;
+    font-size: 65px;
+    margin: 30px auto;
+}
+
+#main-image {
+    margin: auto;
+    display: block;
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 35px;        /*HEADERS*/
+}
+
+ .singapore-div {
+     width: 900px;
+     display: block;        /*div*/
+     margin: auto;
+     margin-bottom: 80px;
+ }
+
+ #images {
+     width: 450px;
+     border-radius: 10px;
+     float: left;
+     margin-right: 25px;
+ }
+
+ #video {
+     margin: auto;
+     display: block;
+     border: solid #0b08f3;
+ }
+
+ #indoor-waterfall {
+    width: 440px;
+    display: block;
+    margin-right: auto;
+    margin: auto;
+    border-radius: 10px;
+ }
+/*-------------------------------PERU-------------------------------*/
+
+.peru-background {
+    background-image: url(peru-background.jpg);
+}
+
+.peru-background p {
+    font-size: 25px;
+    color: azure;
+}
+
+#h1 {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    font-size: 45px;
+    border-bottom: solid;
+    color: azure;
+}
+
+#div {
+    margin: auto;
+    display: block;
+    width: 900px;
+}
+
+#lima-img {
+    width: 550px;
+    margin: auto;
+    display: block;
+}
+
+#huacachina-img {
+    width: 550px;
+    height: 370;
+    margin: auto;
+    display: block;
+}
+
+#peruvian-img {
+    width: 550px;
+    margin: auto;
+    display: block;
+}
+
+#video-peru {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+/*-------------------------------ABOUT US-------------------------------*/
+
+.about-us {
+    font-size: 34px;
+    width: 575px;
+    margin: auto;
+    margin-top: 60px;
+    color: darkblue;
+    margin-right: 15px;
+    margin-bottom: 550px;
+}
+
+.background-vid {
+    z-index: -1;
+    position: absolute;
+}
+
+.about-us-background {
+    background-image: url(about-us-background.jpg);
+    background-size: 100%;
+}
